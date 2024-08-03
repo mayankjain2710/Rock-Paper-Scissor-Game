@@ -1,0 +1,62 @@
+body{
+    background-color:rgb(255 167 246);
+}
+h1{
+    font-family: 'Arial', sans-serif; /* Change the font family */
+    font-size: 3em; /* Increase the font size */
+    color: #333; /* Darker color for better contrast */
+    text-align: center; /* Center the heading */
+    margin-top: 20px; /* Add some margin at the top */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    letter-spacing: 2px; /* Add some letter spacing */
+}
+
+.box img{
+    height: 200px;
+    width: 200px;
+    border-radius: 110px;
+    
+}
+
+.box{
+    cursor: pointer;
+}
+
+.box img:hover{
+    border: solid black;
+    border-width: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.score p{
+    font-size: 35px;
+    text-align: center;
+}
+
+.result{
+    text-align: center;
+}
+.winmsg{
+  background-color: #b700e4; 
+  border: none; 
+  color: white; 
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
